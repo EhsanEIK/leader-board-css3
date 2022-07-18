@@ -216,6 +216,10 @@ footer p {
 ---------------------------- */
 /* mobile device */
 @media screen and (max-width:688px) {
+    body {
+        margin: 8px;
+    }
+
     header {
         height: 100%;
     }
@@ -251,6 +255,10 @@ footer p {
 
 /* tablet device */
 @media only screen and (min-width:689px) and (max-width:992px) {
+    body {
+        margin: 8px;
+    }
+
     nav {
         justify-content: space-between;
         margin-left: 20px
