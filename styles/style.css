@@ -32,6 +32,7 @@ main {
     color: #562EFF;
     font-size: 24px;
     margin-top: 3px;
+    margin-bottom: 16px;
 }
 
 hr {
@@ -235,7 +236,7 @@ footer p {
 
     .section-title {
         text-align: center;
-        margin-bottom: 40px;
+        margin-bottom: 30px;
     }
 
     .players,
@@ -269,7 +270,7 @@ footer p {
     }
 
     .section-title {
-        margin-bottom: 40px;
+        margin-bottom: 30px;
     }
 
     .players,
