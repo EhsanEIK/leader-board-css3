@@ -42,7 +42,7 @@ hr {
 /* ------------------------
     navbar style
 ---------------------------- */
-.nav-header {
+header {
     background-color: #562EFF;
     color: #FFFFFF;
     height: 94px;
@@ -51,7 +51,6 @@ hr {
 nav {
     display: flex;
     justify-content: space-evenly;
-
 }
 
 nav div {
@@ -191,4 +190,64 @@ nav div {
     background-color: #FFE4E8;
     padding: 5px;
     border-radius: 20px;
+}
+
+
+/* ------------------------
+    media queries
+---------------------------- */
+/* mobile device */
+@media screen and (max-width:688px) {
+    header {
+        height: 100%;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .section-title {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .players,
+    .blogs,
+    .courses {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .player {
+        flex-direction: column;
+    }
+
+    .course-info {
+        margin-bottom: 30px;
+    }
+}
+
+/* tablet device */
+@media only screen and (min-width:689px) and (max-width:992px) {
+    nav {
+        justify-content: space-between;
+        margin-left: 20px
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .section-title {
+        margin-bottom: 40px;
+    }
+
+    .players,
+    .courses {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
