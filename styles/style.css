@@ -11,13 +11,14 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF;
 }
 
 main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #F3F1FF;
+
 }
 
 .container {
@@ -194,6 +195,23 @@ nav div {
 
 
 /* ------------------------
+    footer styles
+---------------------------- */
+footer {
+    background-color: #562EFF;
+    color: #FFFFFF;
+    height: 30px;
+    margin-top: 30px;
+}
+
+footer p {
+    text-align: center;
+    position: relative;
+    top: 5px;
+}
+
+
+/* ------------------------
     media queries
 ---------------------------- */
 /* mobile device */
@@ -226,8 +244,8 @@ nav div {
         flex-direction: column;
     }
 
-    .course-info {
-        margin-bottom: 30px;
+    .course {
+        margin-bottom: 40px;
     }
 }
 
